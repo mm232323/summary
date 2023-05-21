@@ -1,0 +1,432 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+  background-color: whitesmoke
+}
+
+.one {
+  background-color: whitesmoke;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 515px;
+  height: 404px;
+  box-shadow: 3px 3px 8px 0 #0003521f;
+  border-radius: 27px;
+  animation-name: thebiggestwhit;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.95, 0.04, 0.25, 1);
+  ;
+}
+
+.two {
+  background-image: linear-gradient(to top, hsl(241, 72%, 46%), hsla(256, 100%, 41%, 0.82));
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-257px, -50%);
+  width: 0px;
+  height: 404px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: #ffffffdb;
+  padding: 7px;
+  font-weight: 500;
+  animation-name: thenextbiggest;
+  animation-duration: .5s;
+  animation-timing-function: cubic-bezier(0.95, 0.04, 0.25, 1);
+  animation-delay: 4.9s;
+  animation-fill-mode: both;
+}
+
+.two .three {
+  z-index: 3;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: linear-gradient(to top, hsl(241deg 81% 54% / 0%), hsl(252deg 100% 31% / 80%));
+  transform: translate(-50%, -89px);
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.pone {
+  font-size: 50px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  color: white;
+  margin: 0;
+  transform: translate(22px, 23px);
+}
+
+.ptwo {
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5px;
+  transform: translate(-28px, -7px);
+  color: #ffffffad;
+}
+
+.pthree {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translate(85px, -91px);
+  font-size: 25px;
+  margin: 0;
+  color: white;
+}
+
+.pfour {
+  transform: translate(25px, 4px);
+  text-align: center;
+  margin: 0px;
+  padding: 2px;
+}
+
+.pfive {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+  transform: translate(-54px, -51px);
+  font-size: 13px;
+  margin: -2pc;
+}
+
+.pp {
+  font-weight: 700;
+  font-size: 26px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  color: hsl(224, 30%, 27%);
+  transform: translate(-98px, -11px);
+  animation-name: pp;
+  animation-duration: .3s;
+  animation-timing-function: cubic-bezier(0.95, 0.04, 0.25, 1);
+  animation-delay: 4.5s;
+  animation-fill-mode: both;
+  opacity: 0%
+}
+
+.Reaction {
+  width: 214px;
+  height: 44px;
+  background-color: hsl(0deg 100% 67% / 4%);
+  position: absolute;
+  z-index: 4;
+  left: 262px;
+  top: 78px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: hsl(0deg 100% 67%);
+  animation-name: reaction;
+  animation-duration: .3s;
+  animation-timing-function: cubic-bezier(0.95, 0.04, 0.25, 1);
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  opacity: 0%
+}
+
+.img1 {
+  transform: translatex(5px);
+}
+
+.react {
+  transform: translatex(10px);
+}
+
+.span1 {
+  padding-left: 43px;
+  color: hsl(224, 30%, 27%);
+  font-weight: bold;
+}
+
+.span2 {
+  opacity: 70%;
+  color: hsl(224, 30%, 27%);
+}
+
+.Memory {
+  width: 214px;
+  height: 44px;
+  background-color: hsla(39, 100%, 56%, 0.075);
+  position: absolute;
+  z-index: 4;
+  left: 262px;
+  top: 138px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: hsl(39, 100%, 56%);
+  animation-name: memory;
+  animation-duration: .3s;
+  animation-timing-function: cubic-bezier(0.95, 0.04, 0.25, 1);
+  animation-delay: 2.7s;
+  animation-fill-mode: both;
+  opacity: 0%
+}
+
+.img2 {
+  transform: translateX(5px)
+}
+
+.memo {
+  padding-left: 10px;
+}
+
+.span3 {
+  padding-left: 41px;
+  color: hsl(224, 30%, 27%);
+  font-weight: bold;
+}
+
+.span4 {
+  color: hsl(224, 30%, 27%);
+  opacity: 70%;
+}
+
+.Verbal {
+  width: 214px;
+  height: 44px;
+  background-color: hsla(166, 100%, 37%, 0.048);
+  position: absolute;
+  z-index: 4;
+  left: 262px;
+  top: 203px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: hsl(166, 100%, 37%);
+  animation-name: verbal;
+  animation-duration: .3s;
+  animation-timing-function: cubic-bezier(0.95, 0.04, 0.25, 1);
+  animation-delay: 3.4s;
+  animation-fill-mode: both;
+  opacity: 0%
+}
+
+.img3 {
+  transform: translatex(5px)
+}
+
+.verb {
+  padding-left: 10px;
+}
+
+.span5 {
+  padding-left: 49px;
+  color: hsl(224, 30%, 27%);
+  font-weight: bold;
+}
+
+.span6 {
+  color: hsl(224, 30%, 27%);
+  opacity: 70%;
+}
+
+.Visual {
+  width: 214px;
+  height: 44px;
+  background-color: hsla(234, 85%, 45%, 0.068);
+  position: absolute;
+  z-index: 4;
+  left: 262px;
+  top: 263px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: hsl(234, 85%, 45%);
+  animation-name: visual;
+  animation-duration: .3s;
+  animation-timing-function: cubic-bezier(0.95, 0.04, 0.25, 1);
+  animation-delay: 4.1s;
+  animation-fill-mode: both;
+  opacity: 0%
+}
+
+.img4 {
+  transform: translate(5px)
+}
+
+.visu {
+  padding-left: 10px;
+}
+
+.span7 {
+  padding-left: 49px;
+  color: hsl(224, 30%, 27%);
+  font-weight: bold;
+}
+
+.span8 {
+  color: hsl(224, 30%, 27%);
+  opacity: 70%
+}
+
+button {
+  transform: translate(277px, 252px);
+  background-image: linear-gradient(to bottom, hsl(256deg 100% 60%), hsl(235deg 100% 58%));
+  border: none;
+  border-radius: 88px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  animation-name: button;
+  animation-duration: .3s;
+  animation-timing-function: cubic-bezier(0.68, 0.06, 0, 0.93);
+  animation-delay: 5.5s;
+  animation-fill-mode: both;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0.68, 0.06, 0, 0.93);
+}
+
+@keyframes thebiggestwhit {
+  from {
+    transform: translate(-50%, 1000px)
+  }
+
+  to {
+    transform: translate(-50%, -50%)
+  }
+}
+
+@keyframes reaction {
+  from {
+    opacity: 0%;
+    position: absolute;
+    z-index: 4;
+    left: 262px;
+    top: 78px;
+  }
+
+  to {
+    opacity: 100%;
+    position: absolute;
+    z-index: 4;
+    top: 85px;
+  }
+}
+
+@keyframes memory {
+  from {
+    opacity: 0%;
+    position: absolute;
+    z-index: 4;
+    left: 262px;
+    top: 138px;
+  }
+
+  to {
+    opacity: 100%;
+    position: absolute;
+    z-index: 4;
+    left: 262px;
+    top: 145px;
+  }
+}
+
+@keyframes verbal {
+  from {
+    opacity: 0%;
+    position: absolute;
+    z-index: 4;
+    top: 196px;
+  }
+
+  to {
+    opacity: 100%;
+    position: absolute;
+    z-index: 4;
+    top: 203px;
+  }
+}
+
+@keyframes visual {
+  from {
+    opacity: 0%;
+    position: absolute;
+    z-index: 4;
+    top: 256px;
+  }
+
+  to {
+    opacity: 100%;
+    position: absolute;
+    z-index: 4;
+    top: 263;
+  }
+}
+
+@keyframes pp {
+  from {
+    opacity: 0%;
+    transform: translate(-98px, -11px);
+  }
+
+  to {
+    opacity: 100%;
+    transform: translate(-91px, -11px)
+  }
+}
+
+@keyframes thenextbiggest {
+  from {
+    transform: translate(-250px, -50%);
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    opacity: 0%
+  }
+
+  to {
+    transform: translate(-257px, -50%);
+    width: 243px;
+    height: 404px;
+    border-radius: 27px;
+    opacity: 100%
+  }
+}
+
+@keyframes button {
+  from {
+    opacity: 0%;
+    cursor: none;
+    width: 0px;
+    height: 0px;
+  }
+
+  to {
+    opacity: 100%;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+  }
+}
+
+button:hover {
+  opacity: 0%;
+}
